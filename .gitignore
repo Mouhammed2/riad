@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# local environment overrides
+.env
+
+# dependencies
+node_modules/
+vendor/
+
+# logs
+*.log

@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* <!-- transparent-navbar  --> */
+
+/* 
+.transparent-navbar {
+  background-color: transparent !important;
+}  */
+
+/* <!-- Swiper js  --> */
+swiper-container {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* <!-- Check-in avaibility --> */
+
+.av {
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(58, 58, 58, 0.523);
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+label {
+  display: grid;
+}
+
+.custom-bg {
+  background-color: black;
+}
+
+.aviablity-form {
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+}
+h5 {
+  font-size: 1.1em;
+}
+
+
+/* <!--OUR ROOM --> */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(255, 255, 255);
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 50px;
+  height: 50px;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: fit-content;
+}
+
+
+/* <!-- OUR Event --> */
+
+.custom-rounded {
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.custom-inline {
+  display: inline;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.moreEvents {
+  background: #dfeafe;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+
+
+
+.swiper-pagination-bullet {
+  background: #cccccc; 
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff; 
+  opacity: 1;
+}
+
+/* <!-- special event --> */
+
+@media (max-width: 768px) {
+  .d-flex.border.border-2 {
+    flex-direction: column;
+  }
+  
+  .d-flex.border.border-2 .flex-shrink-0 {
+    margin-top: 1rem;
+    align-self: center;
+  }
+  
+  .d-flex.border.border-2 div[style="max-width: 400px"] {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* <!-- card hover --> */
+
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+:root {
+  --swiper-navigation-color: #ffffff; /* Change to your desired color */
+  --swiper-navigation-size: 15px; /* You can also adjust the size if needed */
+}
+
+/* avis css */
+
+.room-imag{
+  width:100% ;
+  height:250px ;
+ 
+ 
+ }
