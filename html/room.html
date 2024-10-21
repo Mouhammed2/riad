@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 mb-lg-0 mb-4">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light rounded shadow"
+          >
+            <div class="container-fluid flex-lg-column align-items-stretch">
+              <h4 class="mt-2" href="#">FILTERS</h4>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#filterdrop"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse flex-column align-items-stretch mt-3"
+                id="filterdrop"
+              >
+                <div class="border bg-white p-3 rounded mb-3 w-100">
+                  <h5 class="mb-3" style="font-size: 18px">Check avaibility</h5>
+                  <label class="form-label">Checkin-in</label>
+                  <input type="date" class="form-control shadow-none mb-3" />
+                  <label class="form-label">Checkin-out</label>
+                  <input type="date" class="form-control shadow-none" />
+                </div>
+
+                <div class="border bg-white p-3 rounded mb-3 w-100">
+                  <h5 class="mb-3" style="font-size: 18px">Facilitys</h5>
+
+                  <div class="mb-2">
+                    <input
+                      type="checkbox"
+                      id="f1"
+                      class="form-check-input shadow-none me-1"
+                    />
+                    <label class="form-check-label" for="f1"
+                      >Facility one</label
+                    >
+                  </div>
+                  <div class="mb-2">
+                    <input
+                      type="checkbox"
+                      id="f2"
+                      class="form-check-input shadow-none me-1"
+                    />
+                    <label class="form-check-label" for="f2"
+                      >Facility two</label
+                    >
+                  </div>
+                  <div class="mb-2">
+                    <input
+                      type="checkbox"
+                      id="f3"
+                      class="form-check-input shadow-none me-1"
+                    />
+                    <label class="form-check-label" for="f3"
+                      >Facility three</label
+                    >
+                  </div>
+                </div>
+
+                <div class="border bg-white p-3 rounded mb-3 w-100">
+                  <h5 class="mb-3" style="font-size: 18px">GUESTS</h5>
+                  <div class="d-flex">
+                    <div class="me-2">
+                      <label class="form-label" for="">Adulte</label>
+                      <input type="number" class="form-control shadow-none" />
+                    </div>
+
+                    <div>
+                      <label class="form-label" for="">Children</label>
+                      <input type="number" class="form-control shadow-none" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-lg-9 col-md-12 px-4">
+          <div class="card mb-4 border-0 shadow">
+            <div class="row g-0 p-3 align-items-center">
+              <div class="col-md-5 mb-lg-0 mb-md-0 mb-3">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img
+                        class="img-fluid room-imag"
+                        src="/image/room1.webp"
+                        alt="image riad"
+                      />
+                    </div>
+                    <div class="swiper-slide">
+                      <img
+                        class="img-fluid room-imag"
+                        src="/image/room1.webp"
+                        alt="image riad"
+                      />
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+
+              <div class="col-md-5 px-lg-3 px-0">
+                <h5 class="mb-3 fw-bold">Deluxe Mountain View Suite</h5>
+
+                <div class="features mb-3">
+                  <h6 class="mb-1 text-secondary">
+                    <i class="bi bi-building"></i> Features
+                  </h6>
+                  <div>
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >2 Bedrooms</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >1 Bathroom</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >1 Balcony</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >3 Sofas</span
+                    >
+                  </div>
+                </div>
+
+                <div class="facilities mb-3">
+                  <h6 class="mb-1 text-secondary">
+                    <i class="bi bi-stars"></i> Facilities
+                  </h6>
+                  <div>
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >Free WiFi</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >Air Conditioning</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >Room Service</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >Mini Bar</span
+                    >
+                  </div>
+                </div>
+
+                <div class="guests">
+                  <h6 class="mb-1 text-secondary">
+                    <i class="bi bi-people"></i> Guests
+                  </h6>
+                  <div>
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >4 Adults</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >2 Children</span
+                    >
+                    <span
+                      class="badge rounded-pill bg-light text-dark text-wrap me-1 mb-1"
+                      >Pet Friendly</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 d-flex flex-column justify-content-between">
+                <div class="price text-center mb-2">
+                  <h5 class="mb-0 fw-bold text-success">$330</h5>
+                  <small class="text-muted">per night</small>
+                </div>
+
+                <div class="booking-buttons">
+                  <a
+                    href="#"
+                    class="btn btn-sm text-white bg-dark w-100 mb-2 py-2"
+                    >Book Now</a
+                  >
+                  <a href="#" class="btn btn-sm btn-outline-dark w-100"
+                    >View Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.487.0/dist/cjs/lucide.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
