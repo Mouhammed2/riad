@@ -1,0 +1,52 @@
+2025-04-18 16:40:50 - Script started
+2025-04-18 16:40:50 - Processing room 6 with facilities: Array
+(
+    [0] => Air Conditioning
+    [1] => Room Service
+    [2] => Mini Bar
+    [3] => TV
+    [4] => Balcony
+    [5] => Jacuzzi
+    [6] => Breakfast
+)
+
+2025-04-18 16:40:50 - Room 6 updated successfully, ID: 40
+2025-04-18 16:40:50 - Deleted 1 existing facilities for room ID: 40
+2025-04-18 16:40:50 - Table structure: Array
+(
+    [0] => Array
+        (
+            [Field] => fc_no
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => 
+        )
+
+    [1] => Array
+        (
+            [Field] => room_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => facilities_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+2025-04-18 16:40:50 - Processing 7 facilities
+2025-04-18 16:40:50 - Executing query: INSERT INTO room_facilities (room_id, facilities_id) VALUES (40, 2)
+2025-04-18 16:40:50 - Added facility: Air Conditioning (ID: 2)
+2025-04-18 16:40:50 - Executing query: INSERT INTO room_facilities (room_id, facilities_id) VALUES (40, 3)
